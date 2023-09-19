@@ -1,3 +1,50 @@
+:root {
+    --black: #2c2d34; 
+    --red: #e94822; 
+    --orange: #f2910a;
+    --yellow: #efd510;
+    font-size: 14px;
+}
+
+input, textarea {
+    font-family: "Nunito", sans-serif;
+}
+
+.create-post {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-top: 3rem;
+    padding: 1.5rem 1rem;
+    width: 320px;
+    border-radius: 7px;
+    background-color: white;
+    backdrop-filter: blur(5px);
+    background-color: var(--black);
+    overflow: hidden;
+}
+
 p {
     color: red;
+    margin-bottom: 1rem;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: whitesmoke;
+    border: transparent;
+    border-radius: 5px;
+    color: grey;
+    z-index: 1;
+
+}
+
+.submit:hover {
+    cursor: pointer;
 }
